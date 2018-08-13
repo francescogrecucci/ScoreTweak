@@ -23,33 +23,41 @@ namespace ScoreTweak
         }
 
         private static ResourceManager rm = new ResourceManager("ScoreTweak." + CultureInfo.CurrentUICulture.TwoLetterISOLanguageName + "_local", Assembly.GetExecutingAssembly());
-
+ 
         private void LoadLanguage()
         {
-            label1.Text = rm.GetString("label1");
-            label2.Text = rm.GetString("label2");
-            label40.Text = rm.GetString("label40");
+            try
+            {
 
-            label3.Text = rm.GetString("component");
-            label4.Text = rm.GetString("whatsrated");
-            label5.Text = rm.GetString("subscore");
-            label6.Text = rm.GetString("basescore");
+                label1.Text = rm.GetString("label1");
+                label2.Text = rm.GetString("label2");
+                label40.Text = rm.GetString("label40");
 
-            label15.Text = rm.GetString("calculation");
-            label25.Text = rm.GetString("memoryram");
-            label29.Text = rm.GetString("deskperformance");
-            label33.Text = rm.GetString("graphperformance");
-            label37.Text = rm.GetString("diskperf");
+                label3.Text = rm.GetString("component");
+                label4.Text = rm.GetString("whatsrated");
+                label5.Text = rm.GetString("subscore");
+                label6.Text = rm.GetString("basescore");
 
-            label7.Text = rm.GetString("processor");
-            label10.Text = rm.GetString("ram");
-            label12.Text = rm.GetString("graphics");
-            label13.Text = rm.GetString("gaming");
-            label11.Text = rm.GetString("hdd");
+                label15.Text = rm.GetString("calculation");
+                label25.Text = rm.GetString("memoryram");
+                label29.Text = rm.GetString("deskperformance");
+                label33.Text = rm.GetString("graphperformance");
+                label37.Text = rm.GetString("diskperf");
 
-            label38.Text = rm.GetString("determined");
+                label7.Text = rm.GetString("processor");
+                label10.Text = rm.GetString("ram");
+                label12.Text = rm.GetString("graphics");
+                label13.Text = rm.GetString("gaming");
+                label11.Text = rm.GetString("hdd");
 
-            button1.Text = rm.GetString("about");
+                label38.Text = rm.GetString("determined");
+
+                button1.Text = rm.GetString("about");
+            }
+            catch(Exception)
+            {
+
+            }
         }
 
         private void label25_Click(object sender, EventArgs e)
