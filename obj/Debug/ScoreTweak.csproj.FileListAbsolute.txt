@@ -1,0 +1,12 @@
+C:\Users\Francesco\source\repos\ScoreTweak\ScoreTweak\bin\Debug\ScoreTweak.exe.config
+C:\Users\Francesco\source\repos\ScoreTweak\ScoreTweak\bin\Debug\ScoreTweak.exe
+C:\Users\Francesco\source\repos\ScoreTweak\ScoreTweak\bin\Debug\ScoreTweak.pdb
+C:\Users\Francesco\source\repos\ScoreTweak\ScoreTweak\obj\Debug\ScoreTweak.csprojAssemblyReference.cache
+C:\Users\Francesco\source\repos\ScoreTweak\ScoreTweak\obj\Debug\ScoreTweak.MainForm.resources
+C:\Users\Francesco\source\repos\ScoreTweak\ScoreTweak\obj\Debug\ScoreTweak.Properties.Resources.resources
+C:\Users\Francesco\source\repos\ScoreTweak\ScoreTweak\obj\Debug\ScoreTweak.csproj.GenerateResource.cache
+C:\Users\Francesco\source\repos\ScoreTweak\ScoreTweak\obj\Debug\ScoreTweak.csproj.CoreCompileInputs.cache
+C:\Users\Francesco\source\repos\ScoreTweak\ScoreTweak\obj\Debug\ScoreTweak.exe
+C:\Users\Francesco\source\repos\ScoreTweak\ScoreTweak\obj\Debug\ScoreTweak.pdb
+C:\Users\Francesco\source\repos\ScoreTweak\ScoreTweak\obj\Debug\ScoreTweak.it_local.resources
+C:\Users\Francesco\source\repos\ScoreTweak\ScoreTweak\obj\Debug\ScoreTweak.AboutBox.resources
